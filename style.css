@@ -302,4 +302,20 @@ h1 img{
     }
 }
 
+/* For mobile devices (portrait) */
+@media (max-width: 480px) {
+    .repos {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        gap: 10px;
+    }
+
+    .repos p {
+        text-align: center; /* Center text within paragraphs */
+        margin: 0; /* Remove any default margins */
+    }
+}
+
+
 
